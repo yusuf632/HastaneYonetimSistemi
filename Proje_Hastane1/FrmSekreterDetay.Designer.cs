@@ -61,10 +61,10 @@ namespace Proje_Hastane
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.BtnListe = new System.Windows.Forms.Button();
             this.BtnBransPanel = new System.Windows.Forms.Button();
             this.BtnDoktorPanel = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -356,6 +356,16 @@ namespace Proje_Hastane
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Hızlı Erişim";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(546, 35);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 53);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Duyurular";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // BtnListe
             // 
             this.BtnListe.Location = new System.Drawing.Point(368, 35);
@@ -386,16 +396,6 @@ namespace Proje_Hastane
             this.BtnDoktorPanel.UseVisualStyleBackColor = true;
             this.BtnDoktorPanel.Click += new System.EventHandler(this.BtnDoktorPanel_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(546, 35);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 53);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Duyurular";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FrmSekreterDetay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
@@ -412,6 +412,7 @@ namespace Proje_Hastane
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "FrmSekreterDetay";
             this.Text = "Sekreter Detay";
             this.Load += new System.EventHandler(this.FrmSekreterDetay_Load);

@@ -57,6 +57,7 @@ namespace Proje_Hastane
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FrmRandevuListesi";
             this.Text = "Randevu Listesi";
             this.Load += new System.EventHandler(this.FrmRandevuListesi_Load);
