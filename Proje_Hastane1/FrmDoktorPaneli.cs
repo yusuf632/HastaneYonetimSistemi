@@ -65,7 +65,7 @@ namespace Proje_Hastane
             komut.Parameters.AddWithValue("@p1", MskTC.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Kayıt Silindi","Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Kayıt Silindi","Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)

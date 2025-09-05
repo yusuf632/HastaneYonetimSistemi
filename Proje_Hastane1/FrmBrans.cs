@@ -49,7 +49,7 @@ namespace Proje_Hastane
             komut.Parameters.AddWithValue("@b1", Txtid.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Branş Silindi");
+            MessageBox.Show("Branş Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace Proje_Hastane
             komut.Parameters.AddWithValue("@p2", Txtid.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Branş Güncellendi");
+            MessageBox.Show("Branş Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

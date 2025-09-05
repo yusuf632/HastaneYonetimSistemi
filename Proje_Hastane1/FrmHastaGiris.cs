@@ -45,7 +45,7 @@ namespace Proje_Hastane
             }
             else
             {
-                MessageBox.Show("Hatalı TC & Şifre");
+                MessageBox.Show("Hatalı TC & Şifre","Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             bgl.baglanti().Close();
         }

@@ -50,84 +50,84 @@ namespace Proje_Hastane
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(174, 244);
+            this.TxtSifre.Location = new System.Drawing.Point(134, 160);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(157, 36);
+            this.TxtSifre.Size = new System.Drawing.Size(157, 30);
             this.TxtSifre.TabIndex = 5;
             // 
             // MskTC
             // 
-            this.MskTC.Location = new System.Drawing.Point(174, 132);
+            this.MskTC.Location = new System.Drawing.Point(134, 88);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
-            this.MskTC.Size = new System.Drawing.Size(157, 36);
+            this.MskTC.Size = new System.Drawing.Size(157, 30);
             this.MskTC.TabIndex = 3;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(106, 247);
+            this.label3.Location = new System.Drawing.Point(78, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 28);
+            this.label3.Size = new System.Drawing.Size(50, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "Şifre:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 135);
+            this.label2.Location = new System.Drawing.Point(11, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 28);
+            this.label2.Size = new System.Drawing.Size(117, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "TC Kimlik No:";
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(174, 22);
+            this.TxtAd.Location = new System.Drawing.Point(134, 16);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(157, 36);
+            this.TxtAd.Size = new System.Drawing.Size(157, 30);
             this.TxtAd.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 25);
+            this.label1.Location = new System.Drawing.Point(91, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 28);
+            this.label1.Size = new System.Drawing.Size(37, 23);
             this.label1.TabIndex = 9;
             this.label1.Text = "Ad:";
             // 
             // TxtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(174, 76);
+            this.TxtSoyad.Location = new System.Drawing.Point(134, 52);
             this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(157, 36);
+            this.TxtSoyad.Size = new System.Drawing.Size(157, 30);
             this.TxtSoyad.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(91, 79);
+            this.label4.Location = new System.Drawing.Point(65, 55);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 28);
+            this.label4.Size = new System.Drawing.Size(63, 23);
             this.label4.TabIndex = 11;
             this.label4.Text = "Soyad:";
             // 
             // MskTelefon
             // 
-            this.MskTelefon.Location = new System.Drawing.Point(174, 193);
+            this.MskTelefon.Location = new System.Drawing.Point(134, 124);
             this.MskTelefon.Mask = "(999) 000-0000";
             this.MskTelefon.Name = "MskTelefon";
-            this.MskTelefon.Size = new System.Drawing.Size(157, 36);
+            this.MskTelefon.Size = new System.Drawing.Size(157, 30);
             this.MskTelefon.TabIndex = 4;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(80, 196);
+            this.label6.Location = new System.Drawing.Point(55, 127);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 28);
+            this.label6.Size = new System.Drawing.Size(73, 23);
             this.label6.TabIndex = 16;
             this.label6.Text = "Telefon:";
             // 
@@ -137,17 +137,17 @@ namespace Proje_Hastane
             this.CmbCinsiyet.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.CmbCinsiyet.Location = new System.Drawing.Point(174, 296);
+            this.CmbCinsiyet.Location = new System.Drawing.Point(134, 196);
             this.CmbCinsiyet.Name = "CmbCinsiyet";
-            this.CmbCinsiyet.Size = new System.Drawing.Size(157, 36);
+            this.CmbCinsiyet.Size = new System.Drawing.Size(157, 30);
             this.CmbCinsiyet.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(75, 299);
+            this.label5.Location = new System.Drawing.Point(51, 199);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 28);
+            this.label5.Size = new System.Drawing.Size(77, 23);
             this.label5.TabIndex = 18;
             this.label5.Text = "Cinsiyet:";
             // 
@@ -155,9 +155,9 @@ namespace Proje_Hastane
             // 
             this.BtnKayitYap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BtnKayitYap.ForeColor = System.Drawing.Color.Black;
-            this.BtnKayitYap.Location = new System.Drawing.Point(174, 355);
+            this.BtnKayitYap.Location = new System.Drawing.Point(15, 241);
             this.BtnKayitYap.Name = "BtnKayitYap";
-            this.BtnKayitYap.Size = new System.Drawing.Size(157, 46);
+            this.BtnKayitYap.Size = new System.Drawing.Size(276, 46);
             this.BtnKayitYap.TabIndex = 19;
             this.BtnKayitYap.Text = "Kayıt Yap";
             this.BtnKayitYap.UseVisualStyleBackColor = false;
@@ -166,11 +166,11 @@ namespace Proje_Hastane
             // FrmHastaKayit
             // 
             this.AcceptButton = this.BtnKayitYap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(360, 428);
+            this.ClientSize = new System.Drawing.Size(312, 305);
             this.Controls.Add(this.BtnKayitYap);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.CmbCinsiyet);
@@ -189,6 +189,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmHastaKayit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hasta Kayıt";
             this.ResumeLayout(false);
             this.PerformLayout();

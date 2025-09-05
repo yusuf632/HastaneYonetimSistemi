@@ -53,100 +53,100 @@ namespace Proje_Hastane
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 22);
+            this.label1.Location = new System.Drawing.Point(40, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 28);
+            this.label1.Size = new System.Drawing.Size(37, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad:";
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(106, 19);
+            this.TxtAd.Location = new System.Drawing.Point(83, 19);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(163, 36);
+            this.TxtAd.Size = new System.Drawing.Size(163, 30);
             this.TxtAd.TabIndex = 1;
             // 
             // CmbBrans
             // 
             this.CmbBrans.FormattingEnabled = true;
-            this.CmbBrans.Location = new System.Drawing.Point(106, 117);
+            this.CmbBrans.Location = new System.Drawing.Point(83, 91);
             this.CmbBrans.Name = "CmbBrans";
-            this.CmbBrans.Size = new System.Drawing.Size(163, 36);
+            this.CmbBrans.Size = new System.Drawing.Size(163, 30);
             this.CmbBrans.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 68);
+            this.label2.Location = new System.Drawing.Point(14, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 28);
+            this.label2.Size = new System.Drawing.Size(63, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Soyad:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 120);
+            this.label3.Location = new System.Drawing.Point(18, 94);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 28);
+            this.label3.Size = new System.Drawing.Size(59, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Branş:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 172);
+            this.label4.Location = new System.Drawing.Point(13, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 28);
+            this.label4.Size = new System.Drawing.Size(64, 23);
             this.label4.TabIndex = 5;
             this.label4.Text = "TC No:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(28, 226);
+            this.label5.Location = new System.Drawing.Point(27, 166);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 28);
+            this.label5.Size = new System.Drawing.Size(50, 23);
             this.label5.TabIndex = 6;
             this.label5.Text = "Şifre:";
             // 
             // TxtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(106, 65);
+            this.TxtSoyad.Location = new System.Drawing.Point(83, 55);
             this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(163, 36);
+            this.TxtSoyad.Size = new System.Drawing.Size(163, 30);
             this.TxtSoyad.TabIndex = 7;
             // 
             // MskTC
             // 
-            this.MskTC.Location = new System.Drawing.Point(106, 169);
+            this.MskTC.Location = new System.Drawing.Point(83, 127);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
-            this.MskTC.Size = new System.Drawing.Size(163, 36);
+            this.MskTC.Size = new System.Drawing.Size(163, 30);
             this.MskTC.TabIndex = 8;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(106, 223);
+            this.TxtSifre.Location = new System.Drawing.Point(83, 163);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(163, 36);
+            this.TxtSifre.Size = new System.Drawing.Size(163, 30);
             this.TxtSifre.TabIndex = 9;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(287, 22);
+            this.dataGridView1.Location = new System.Drawing.Point(269, 19);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(771, 344);
+            this.dataGridView1.Size = new System.Drawing.Size(771, 282);
             this.dataGridView1.TabIndex = 10;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // BtnEkle
             // 
             this.BtnEkle.BackColor = System.Drawing.Color.RoyalBlue;
-            this.BtnEkle.Location = new System.Drawing.Point(106, 275);
+            this.BtnEkle.Location = new System.Drawing.Point(31, 213);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(75, 41);
             this.BtnEkle.TabIndex = 11;
@@ -157,7 +157,7 @@ namespace Proje_Hastane
             // BtnSil
             // 
             this.BtnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.BtnSil.Location = new System.Drawing.Point(194, 275);
+            this.BtnSil.Location = new System.Drawing.Point(112, 213);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(75, 41);
             this.BtnSil.TabIndex = 12;
@@ -168,9 +168,9 @@ namespace Proje_Hastane
             // BtnGuncelle
             // 
             this.BtnGuncelle.BackColor = System.Drawing.Color.Lime;
-            this.BtnGuncelle.Location = new System.Drawing.Point(106, 325);
+            this.BtnGuncelle.Location = new System.Drawing.Point(31, 260);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(163, 41);
+            this.BtnGuncelle.Size = new System.Drawing.Size(156, 41);
             this.BtnGuncelle.TabIndex = 13;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.UseVisualStyleBackColor = false;
@@ -178,11 +178,11 @@ namespace Proje_Hastane
             // 
             // FrmDoktorPaneli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1070, 397);
+            this.ClientSize = new System.Drawing.Size(1057, 317);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
             this.Controls.Add(this.BtnEkle);
@@ -202,6 +202,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmDoktorPaneli";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doktor Paneli";
             this.Load += new System.EventHandler(this.FrmDoktorPaneli_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

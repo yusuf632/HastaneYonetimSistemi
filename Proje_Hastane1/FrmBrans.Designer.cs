@@ -46,7 +46,7 @@ namespace Proje_Hastane
             // BtnGuncelle
             // 
             this.BtnGuncelle.BackColor = System.Drawing.Color.Lime;
-            this.BtnGuncelle.Location = new System.Drawing.Point(113, 177);
+            this.BtnGuncelle.Location = new System.Drawing.Point(104, 151);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(163, 41);
             this.BtnGuncelle.TabIndex = 27;
@@ -57,7 +57,7 @@ namespace Proje_Hastane
             // BtnSil
             // 
             this.BtnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.BtnSil.Location = new System.Drawing.Point(201, 127);
+            this.BtnSil.Location = new System.Drawing.Point(192, 104);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(75, 41);
             this.BtnSil.TabIndex = 26;
@@ -68,7 +68,7 @@ namespace Proje_Hastane
             // BtnEkle
             // 
             this.BtnEkle.BackColor = System.Drawing.Color.RoyalBlue;
-            this.BtnEkle.Location = new System.Drawing.Point(113, 127);
+            this.BtnEkle.Location = new System.Drawing.Point(104, 104);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(75, 41);
             this.BtnEkle.TabIndex = 25;
@@ -80,52 +80,52 @@ namespace Proje_Hastane
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(298, 23);
+            this.dataGridView1.Location = new System.Drawing.Point(294, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(432, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(432, 180);
             this.dataGridView1.TabIndex = 24;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // TxtBrans
             // 
-            this.TxtBrans.Location = new System.Drawing.Point(113, 69);
+            this.TxtBrans.Location = new System.Drawing.Point(104, 59);
             this.TxtBrans.Name = "TxtBrans";
-            this.TxtBrans.Size = new System.Drawing.Size(163, 36);
+            this.TxtBrans.Size = new System.Drawing.Size(163, 30);
             this.TxtBrans.TabIndex = 21;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 72);
+            this.label2.Location = new System.Drawing.Point(14, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 28);
+            this.label2.Size = new System.Drawing.Size(84, 23);
             this.label2.TabIndex = 17;
             this.label2.Text = "Branş Ad:";
             // 
             // Txtid
             // 
-            this.Txtid.Location = new System.Drawing.Point(113, 23);
+            this.Txtid.Location = new System.Drawing.Point(104, 23);
             this.Txtid.Name = "Txtid";
-            this.Txtid.Size = new System.Drawing.Size(163, 36);
+            this.Txtid.Size = new System.Drawing.Size(163, 30);
             this.Txtid.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 26);
+            this.label1.Location = new System.Drawing.Point(21, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 28);
+            this.label1.Size = new System.Drawing.Size(77, 23);
             this.label1.TabIndex = 14;
             this.label1.Text = "Branş id:";
             // 
             // FrmBrans
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(763, 248);
+            this.ClientSize = new System.Drawing.Size(736, 211);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
             this.Controls.Add(this.BtnEkle);
@@ -139,6 +139,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmBrans";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Branş Paneli";
             this.Load += new System.EventHandler(this.FrmBrans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

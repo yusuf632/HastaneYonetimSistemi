@@ -34,7 +34,7 @@ namespace Proje_Hastane
             }
             else
             {
-                MessageBox.Show("Hatalı kullanıcı adı veya şifre");
+                MessageBox.Show("Hatalı kullanıcı adı veya şifre", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             bgl.baglanti().Close();
         }

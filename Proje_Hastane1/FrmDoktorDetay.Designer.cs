@@ -68,36 +68,36 @@ namespace Proje_Hastane
             // LblAdSoyad
             // 
             this.LblAdSoyad.AutoSize = true;
-            this.LblAdSoyad.Location = new System.Drawing.Point(133, 91);
+            this.LblAdSoyad.Location = new System.Drawing.Point(158, 78);
             this.LblAdSoyad.Name = "LblAdSoyad";
-            this.LblAdSoyad.Size = new System.Drawing.Size(93, 28);
+            this.LblAdSoyad.Size = new System.Drawing.Size(76, 23);
             this.LblAdSoyad.TabIndex = 3;
             this.LblAdSoyad.Text = "Null Null";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 91);
+            this.label3.Location = new System.Drawing.Point(63, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 28);
+            this.label3.Size = new System.Drawing.Size(89, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Ad Soyad:";
             // 
             // LblTC
             // 
             this.LblTC.AutoSize = true;
-            this.LblTC.Location = new System.Drawing.Point(133, 54);
+            this.LblTC.Location = new System.Drawing.Point(158, 55);
             this.LblTC.Name = "LblTC";
-            this.LblTC.Size = new System.Drawing.Size(144, 28);
+            this.LblTC.Size = new System.Drawing.Size(120, 23);
             this.LblTC.TabIndex = 1;
             this.LblTC.Text = "00000000000";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 54);
+            this.label1.Location = new System.Drawing.Point(88, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 28);
+            this.label1.Size = new System.Drawing.Size(64, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "TC No:";
             // 
@@ -133,10 +133,10 @@ namespace Proje_Hastane
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 32);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 26);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(838, 547);
+            this.dataGridView1.Size = new System.Drawing.Size(838, 553);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -184,7 +184,7 @@ namespace Proje_Hastane
             // 
             // FrmDoktorDetay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;

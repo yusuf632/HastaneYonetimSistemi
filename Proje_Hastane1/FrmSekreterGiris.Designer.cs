@@ -42,9 +42,9 @@ namespace Proje_Hastane
             // 
             // BtnGirisYap
             // 
-            this.BtnGirisYap.Location = new System.Drawing.Point(190, 240);
+            this.BtnGirisYap.Location = new System.Drawing.Point(51, 151);
             this.BtnGirisYap.Name = "BtnGirisYap";
-            this.BtnGirisYap.Size = new System.Drawing.Size(131, 39);
+            this.BtnGirisYap.Size = new System.Drawing.Size(305, 39);
             this.BtnGirisYap.TabIndex = 10;
             this.BtnGirisYap.Text = "Giriş Yap";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
@@ -52,18 +52,18 @@ namespace Proje_Hastane
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(180, 181);
+            this.TxtSifre.Location = new System.Drawing.Point(170, 115);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(157, 36);
+            this.TxtSifre.Size = new System.Drawing.Size(186, 30);
             this.TxtSifre.TabIndex = 9;
             this.TxtSifre.UseSystemPasswordChar = true;
             // 
             // MskTC
             // 
-            this.MskTC.Location = new System.Drawing.Point(180, 110);
+            this.MskTC.Location = new System.Drawing.Point(170, 79);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
-            this.MskTC.Size = new System.Drawing.Size(157, 36);
+            this.MskTC.Size = new System.Drawing.Size(186, 30);
             this.MskTC.TabIndex = 8;
             this.MskTC.ValidatingType = typeof(int);
             // 
@@ -71,38 +71,38 @@ namespace Proje_Hastane
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(472, 67);
+            this.label1.Size = new System.Drawing.Size(379, 53);
             this.label1.TabIndex = 7;
             this.label1.Text = "Sekreter Giriş Paneli";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(112, 181);
+            this.label3.Location = new System.Drawing.Point(114, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 28);
+            this.label3.Size = new System.Drawing.Size(50, 23);
             this.label3.TabIndex = 12;
             this.label3.Text = "Şifre:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 118);
+            this.label2.Location = new System.Drawing.Point(47, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 28);
+            this.label2.Size = new System.Drawing.Size(117, 23);
             this.label2.TabIndex = 11;
             this.label2.Text = "TC Kimlik No:";
             // 
             // FrmSekreterGiris
             // 
             this.AcceptButton = this.BtnGirisYap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(495, 331);
+            this.ClientSize = new System.Drawing.Size(407, 211);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnGirisYap);
@@ -114,6 +114,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "FrmSekreterGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter Girişi";
             this.ResumeLayout(false);
             this.PerformLayout();

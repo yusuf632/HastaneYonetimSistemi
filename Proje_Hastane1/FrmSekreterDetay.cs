@@ -67,7 +67,7 @@ namespace Proje_Hastane
             komutKaydet.Parameters.AddWithValue("@r4", CmbDoktor.Text);
             komutKaydet.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Randevu Oluşturuldu");
+            MessageBox.Show("Randevu Oluşturuldu", "Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace Proje_Hastane
             komut.Parameters.AddWithValue("@d1",RchDuyuru.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Duyuru Oluşturuldu");
+            MessageBox.Show("Duyuru Oluşturuldu", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnDoktorPanel_Click(object sender, EventArgs e)

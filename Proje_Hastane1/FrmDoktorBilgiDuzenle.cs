@@ -39,7 +39,7 @@ namespace Proje_Hastane
 
         private void BtnBilgiGuncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Update Tbl_Doktorlar set DoktorAd=@p1, DoktorSoyad=@p2, DoktorBrans=@p3, DoktorSifre=@p4, DoktorTC=@p5",bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Update Tbl_Doktorlar set DoktorAd=@p1, DoktorSoyad=@p2, DoktorBrans=@p3, DoktorSifre=@p4 where DoktorTC=@p5", bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", TxtAd.Text);
             komut.Parameters.AddWithValue("@p2", TxtSoyad.Text);
             komut.Parameters.AddWithValue("@p3", CmbBrans.Text);
@@ -47,7 +47,7 @@ namespace Proje_Hastane
             komut.Parameters.AddWithValue("@p5", MskTC.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Kayıt Güncellendi");
+            MessageBox.Show("Kayıt Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
