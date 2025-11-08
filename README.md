@@ -1,32 +1,32 @@
-📋 Proje Tanımı
+📋 Project Description
 
-Bu proje, C# Windows Forms ile geliştirilmiş bir Hastane Yönetim Sistemi'dir. Klinikler ve hastaneler için hasta kayıt, randevu yönetimi ve hasta takip sistemi gibi temel işlemleri kolaylaştırmak amacıyla tasarlanmıştır.
+This project is a Hospital Management System developed with C# Windows Forms. It is designed to facilitate basic operations such as patient registration, appointment management, and patient tracking for clinics and hospitals.
 
-✨ Öne Çıkan Özellikler
+✨ Key Features
 
-👨‍⚕️ Hasta & Randevu Yönetimi
+👨‍⚕️ Patient & Appointment Management
 
-- Hasta kayıt, düzenleme ve sorgulama
+- Patient registration, editing, and querying
 
-- TCKN doğrulama ile hasta girişi
+- Patient entry with TCKN verification
 
-- Doktor randevu takvimi (Çakışma önleyici)
+- Doctor appointment calendar (conflict prevention)
 
-🏥 Doktor & Sekreter Modülü
+🏥 Doctor & Secretary Module
 
-- Doktor panelleri (Randevu görüntüleme, hasta bilgileri)
+- Doctor panels (appointment viewing, patient information)
 
-📊 Raporlama ve Analiz
+📊 Reporting and Analysis
 
-- Günlük hasta kayıt raporları
+- Daily patient registration reports
 
-🔐 Güvenlik ve Yetkilendirme
+🔐 Security and Authorization
 
-- Rol bazlı erişim (Hasta, Doktor, Sekreter)
+- Role-based access (Patient, Doctor, Secretary)
 
-🛠 Kullanılan Teknolojiler
+🛠 Technologies Used
 
 Platform: Windows Forms 
 
-Veritabanı: SQL Server 
+Database: SQL Server 
 
